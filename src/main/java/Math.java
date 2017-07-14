@@ -24,4 +24,11 @@ public class Math {
 		}
 		return c;
 	}
+	
+	public static void main(String[] args) {
+		System.out.println("Add function : 3 + 9 = " + Math.add(9, 3));
+		System.out.println("Subtract function : 3 + 9 = " + Math.minus(9, 3));
+		System.out.println("Multiply function : 3 + 9 = " + Math.multiply(9, 3));
+		System.out.println("Add function : 3 + 9 = " + Math.divide(9, 3));
+	}
 }
