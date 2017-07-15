@@ -11,12 +11,12 @@ public class Math3Test {
 		int sum = 0;
 		double ave = 0.0;
 		for (int i=0; i<10; i++) {
-			sum = sum + results[1];
+			sum = Math.add(sum, results[i]);
 		}
-		ave = sum / 10;
+		ave = Math.divide(sum, results.length);
 		
-		assertEquals("The sum of results wrong!", sum, 450);
-		assertEquals("The sum of results wrong!", ave, 45, 0.0);
+		assertEquals("The sum of results wrong!", sum, 639);
+		assertEquals("The sum of results wrong!", ave, 63.0, 0.0);
 	}
 
 }
